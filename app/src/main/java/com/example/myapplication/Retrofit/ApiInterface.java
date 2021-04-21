@@ -8,7 +8,7 @@ import retrofit2.http.GET;
 
 public interface ApiInterface {
 
-    @GET("/api/unknown")
+    @GET("/simple-blog-api/db")
     Call<BlogResource> doGetListResources();
 }
 
